@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment List has expected structure when no comments given 1`] = `
+<div
+  class="list"
+>
+  <h1>
+    Comments
+  </h1>
+   
+  <p>
+    There are no comments yet!
+  </p>
+</div>
+`;
+
+exports[`Comment List has expected structure when some comments given 1`] = `
+<div
+  class="list"
+>
+  <h1>
+    Comments
+  </h1>
+   
+  <ol
+    class="comments"
+  >
+    <li>
+      
+  this
+
+    </li>
+    <li>
+      
+  is
+
+    </li>
+    <li>
+      
+  a
+
+    </li>
+    <li>
+      
+  test
+
+    </li>
+  </ol>
+</div>
+`;
