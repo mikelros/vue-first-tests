@@ -3,18 +3,21 @@
     <img src="./assets/logo.png">
     <CommentInput @add="addComment" />
     <CommentList :comments="comments" />
+    <Randomizer @add="addComment"/>
   </div>
 </template>
 
 <script>
 import CommentInput from './components/CommentInput.vue';
 import CommentList from './components/CommentList.vue';
+import Randomizer from './components/Randomizer.vue';
 
 export default {
   name: 'app',
   components: {
     CommentInput,
-    CommentList
+    CommentList,
+    Randomizer
   },
   data: function () {
     return {

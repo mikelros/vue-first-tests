@@ -1,7 +1,7 @@
 <template>
   <div class="list">
     <h1>Comments</h1>
-    <ol class="comments" v-if="comments.length > 0">
+    <ol class="comments" v-if="comments.length">
       <Comment v-for="(comment, i) in comments"
                :comment="comment"
                :key="i"
